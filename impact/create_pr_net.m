@@ -29,6 +29,8 @@ net.divideParam.testRatio = 15/100;  % Adjust as desired
 [net,tr] = train(net,inputs,targets);
 outputs = sim(net,inputs);
 
+save network.mat net
+
 % Plot
 plotperf(tr)
 %plotconfusion(targets,outputs)
