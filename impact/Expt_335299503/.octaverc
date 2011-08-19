@@ -1,0 +1,10 @@
+clear tmpdata;tmpdata = load('RaGe.csv');
+geSpeed = tmpdata(:,2);
+geX = tmpdata(:,3);
+geY = tmpdata(:,4);
+geDef = tmpdata(:,5);
+geFace = tmpdata(:,6);
+raSpeed = tmpdata(:,8);
+raMistmatch = tmpdata(:,9);
+raCapping = tmpdata(:,10);
+raTarget = tmpdata(:,11);
